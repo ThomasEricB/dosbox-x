@@ -10,7 +10,7 @@ Você pode inserir seus comandos MOUNT para a montagem aqui.
 :CONFIGFILE_INTRO
 # Esse é ou arquivo de configurações do DOSBox-X %s. (Por favor, use a última versão do DOSBox-X)
 # Linhas que começam com # são linhas de comentário e são ignoradas pelo DOSBox-X.
-# Estas linhas são usadas para documentar brevemente o q efeito de cada opção.
+# Estas linhas são usadas para documentar brevemente o efeito de cada opção.
 # Para gravar TODAS as opções, use o comando 'config -all' com a opção -wc ou -writeconf.
 
 .
