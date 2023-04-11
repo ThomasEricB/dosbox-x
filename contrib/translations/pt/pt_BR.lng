@@ -3,25 +3,25 @@
 :DOSBOX-X:VERSION:2023.03.31
 :DOSBOX-X:REMARK:
 :AUTOEXEC_CONFIGFILE_HELP
-As linhas nesta seção serão sempre executadas ao se iniciar o DOSBox-X.
-Você pode adicionar comandos de montagem aqui.
+Linhas nesta seção serão sempre executadas durante a inicialização do DOSBox-X.
+Você pode inserir seus comandos MOUNT para a montagem aqui.
 
 .
 :CONFIGFILE_INTRO
 # Esse é ou arquivo de configurações do DOSBox-X %s. (Por favor, use a última versão do DOSBox-X)
-# Linhas começando com # são linhas de comentário e são ignoradas pelo DOSBox-X.
-# Estas linhas são usadas para documentar brevemente ou efeito de cada opção.
-# Para escrever TODAS as opções, use ou comando 'config -all' com -wc ou -writeconf.
+# Linhas que começam com # são linhas de comentário e são ignoradas pelo DOSBox-X.
+# Estas linhas são usadas para documentar brevemente o q efeito de cada opção.
+# Para gravar TODAS as opções, use o comando 'config -all' com a opção -wc ou -writeconf.
 
 .
 :CONFIG_SUGGESTED_VALUES
 Valores possíveis
 .
 :CONFIG_ADVANCED_OPTION
-Opções avançadas (ver arquivo de referência de configuração completo [dosbox-x.reference.full.conf] para mais detalhes)
+Opções avançadas (veja o arquivo de referência de configuração completo [dosbox-x.reference.full.conf] para mais detalhes)
 .
 :CONFIG_TOOL
-Ferramenta de configuração do DOSBox-X
+Ferramenta de Configuração do DOSBox-X
 .
 :CONFIG_TOOL_EXIT
 Sair da ferramenta de configuração
@@ -33,7 +33,7 @@ Sair do editor de mapeamento
 Salvar arquivo de mapeamento
 .
 :WARNING
-Aviso
+Alerta
 .
 :YES
 Sim
@@ -51,7 +51,7 @@ Cancelar
 Fechar
 .
 :DEBUGCMD
-Inserir comando do depurador
+Inserir Comando do Depurador
 .
 :ADD
 Adicionar
@@ -69,7 +69,7 @@ Salvar
 Sair
 .
 :CAPTURE
-Capturar
+Gravar
 .
 :SAVE_CONFIGURATION
 Salvar configuração
@@ -78,19 +78,19 @@ Salvar configuração
 Salvar arquivo de idioma
 .
 :SAVE_RESTART
-Salvar e reiniciar
+Salvar e Reiniciar
 .
 :PASTE_CLIPBOARD
-Colar transferência
+Colar da Área de Transferência
 .
 :APPEND_HISTORY
-Anexar histórico
+Anexar Histórico
 .
 :EXECUTE_NOW
-Executar agora
+Executar Agora
 .
 :ADDITION_CONTENT
-Conteúdo adicional:
+Conteúdo Adicional:
 .
 :CONTENT
 Conteúdo:
@@ -102,22 +102,22 @@ Editar %s
 Ajuda para %s
 .
 :HELP_INFO
-Clique não botão "Ajuda" para obter ajuda detalhada.
+Clique no botão "Ajuda" abaixo para obter uma ajuda detalhada.
 .
 :SELECT_VALUE
-Selecionar valor da propriedade
+Selecionar o valor da propriedade
 .
 :CONFIGURATION_FOR
 Configuração de %s
 .
 :CONFIGURATION
-Ajuste
+Configuração
 .
 :SETTINGS
-Configurações
+Opções
 .
 :LOGGING_OUTPUT
-Saída de registro do DosBox-X
+Resultado do registro do DosBox-X
 .
 :CODE_OVERVIEW
 Descrição geral do código
@@ -132,10 +132,10 @@ Primeiros passos no DosBox-X
 Suporte à CD-ROM
 .
 :DRIVE_INFORMATION
-Informação da unidade
+Informação da unidade de disco
 .
 :MOUNTED_DRIVE_NUMBER
-Número da unidade montada
+Número da unidade de disco montada
 .
 :IDE_CONTROLLER_ASSIGNMENT
 Atribuição do controlador IDE
@@ -144,10 +144,10 @@ Atribuição do controlador IDE
 Ajuda de comandos DOS
 .
 :CURRENT_VOLUME
-Valores atuais do mixer
+Valores atuais do mixer de som
 .
 :CURRENT_SBCONFIG
-Configuração da Sound Blaster
+Configuração do Sound Blaster
 .
 :CURRENT_MIDICONFIG
 Configuração atual de MIDI
@@ -171,33 +171,33 @@ Grupo de ajustes para configurar:
 Incluir avançados
 .
 :USE_PRIMARYCONFIG
-Usar config primária
+Usar um arquivo config primário
 .
 :USE_PORTABLECONFIG
-Usar config portátil
+Usar um arquivo config portátil
 .
 :USE_USERCONFIG
-Usar config do usuário
+Usar o arquivo config do usuário
 .
 :CONFIG_SAVETO
-Insira o nome do arquivo para o arquivo de configuração a ser salvo:
+Insira o nome do arquivo de configuração a ser salvo:
 .
 :CONFIG_SAVEALL
-Salvar tudo (includindo ajustes avançados) no arquivo config
+Salvar todas as opções de configuração (includindo as avançados) no arquivo config
 .
 :LANG_FILENAME
-Introduza o nome do arquivo de idioma:
+Insira o nome do arquivo de idioma:
 .
 :LANG_LANGNAME
 Nome do idioma (opcional):
 .
 :INTRO_MESSAGE
-Bem-vindo ao DOSBox-X, um emulador de DOS completo e livre.
-O DOSBox-X cria um console DOS que funciona como um DOS real.
+Bem-vindo ao DOSBox-X, um emulador de DOS livre e completo.
+O DOSBox-X cria uma interface do DOS que funciona como um DOS real.
 Você também pode executar o Windows 3.x/9x/Me dentro da máquina DOS.
 .
 :DRIVE
-Unidade
+Unidade de Disco
 .
 :TYPE
 Tipo
@@ -206,53 +206,53 @@ Tipo
 Rótulo
 .
 :DRIVE_NUMBER
-Número da unidade
+Número da unidade de disco
 .
 :DISK_NAME
-Nome de disco
+Nome do disco
 .
 :IDE_POSITION
-Posição IDE
+Posição do IDE
 .
 :SWAP_SLOT
-Trocar compartimento
+Alternar a entrada
 .
 :EMPTY_SLOT
-Compartimento vazio
+Entrada vazia
 .
 :SLOT
-Compartimento
+Entrada
 .
 :SELECT_EVENT
-Selecionar evento para alterar.
+Selecione um evento para alterar.
 .
 :SELECT_DIFFERENT_EVENT
-Usar outro evento ou usar Add/Del/Next.
+Selecione um evento ou pressione Add/Del/Next.
 .
 :PRESS_JOYSTICK_KEY
 Pressione uma tecla ou use o joystick.
 .
 :CAPTURE_ENABLED
-Captura ativada. Pressiona ESC para liberar.
+Gravação ativada. Pressione ESC para liberar.
 .
 :MAPPER_FILE_SAVED
 Arquivo de mapeamento salvo.
 .
 :AUTO_CYCLE_MAX
-Ciclos automáticos [máx.]
+Ciclos [máx.] automático
 .
 :AUTO_CYCLE_AUTO
-Ciclos automáticos [auto.]
+Ciclos [auto.] automático
 .
 :AUTO_CYCLE_OFF
-Ciclos automáticos [desl.]
+Ciclos [desligados] automático 
 .
 :PROGRAM_CONFIG_PROPERTY_ERROR
-Não existe tal seção ou propriedade.
+Seção ou propriedade não encontrada.
 
 .
 :PROGRAM_CONFIG_NO_PROPERTY
-Não existe propriedade %s na seção %s.
+Não existe propriedade %s dentro da seção %s.
 
 .
 :PROGRAM_CONFIG_SET_SYNTAX
@@ -260,7 +260,7 @@ A sintaxe para a opção -set está incorreta.
 
 .
 :PROGRAM_CONFIG_NOCONFIGFILE
-Não foi carregado o arquivo config!
+Não há nenhum arquivo config carregado!
 
 .
 :PROGRAM_CONFIG_PRIMARY_CONF
@@ -296,40 +296,41 @@ Não foi possível abrir o arquivo %s
 
 .
 :PROGRAM_CONFIG_FILE_WHICH
-Escrevendo o arquivo config %s
+Gravando o arquivo config %s
 
 .
 :PROGRAM_LANGUAGE_FILE_WHICH
-Escrito no arquivo de idioma %s
+Arquivo de idioma %s recém-gravado
 
 .
 :PROGRAM_CONFIG_USAGE
-Utilitário de configuração por linha de comando. Opções suportadas:
--wc (ou -writeconf) sem parâmetro: Escreve no arquivo config primário carregado
--wc (ou -writeconf) com nome_de_arquivo: Escreve arquivo ao dir. de config.
--wl (ou -writelang) com nome_de_arquivo: Escreve cadeias do idioma atual.
+Ferramenta de configuração do DOSBox-X por linha de comando. Opções suportadas:
+-wc (ou -writeconf) sem parâmetro: Grava no arquivo config primário carregado.
+-wc (ou -writeconf) com nome_de_arquivo: Grava no arquivo na pasta do config.
+-wl (ou -writelang) com nome_de_arquivo: Grava as linhas no idioma atual.
 -ln (ou -langname) Exibe (sem argumentos) ou especifica o nome do idioma.
--wcp [arquivo] Escreve config ao dir. do DosBox-X dosbox-x.conf ou "arquivo"
--wcd Escreve no arquivo de config padrão do diretório de config.
--all, -mod com -wc, -wcp, ou -wcd para escrever TODAS opções no arquivo config.
--wcboot, -wcpboot, ou -wcdboot reinicia DOSBox-X depois de escrever o arquivo.
--bootconf (o -bc) reinicia com arquivo config definido (ou primário carregado).
--norem Use com -wc, -wcp, ou -wcd para não escrever comentários das opções.
+-wcp [nome] Grava sobre arquivo na pasta do programa (dosbox-x.conf ou nome).
+-wcd Grava no arquivo de config padrão na pasta config.
+-all, -mod Use com -wc, -wcp, ou -wcd para gravar TODAS opções no arquivo config.
+-wcboot, -wcpboot, ou -wcdboot reinicia o DOSBox-X após gravar o arquivo.
+-bootconf (ou -bc) reinicia com arquivo config definido (ou primário carregado).
+-norem Use com -wc, -wcp, ou -wcd para não gravar comentários das opções.
 -l Lista os parâmetros de configuração do DOSBox-X.
 -h, -help, -? Mostra esta ajuda; adicione "sections" para uma lista de seções.
 -h, -help, -? seção / propriedade Informações sobre uma seção ou propriedade.
 -axclear Limpa a seção [autoexec].
 -axadd [linha] Adiciona uma linha na seção [autoexec].
--axtype Imprime o conteúdo de uma seção do [autoexec].
+-axtype Exibe o conteúdo de uma seção do [autoexec].
+-avistart, -avistop Começa ou termina a gravação AVI.
 -securemode Ativa o modo seguro onde opções como MOUNT serão desativadas.
 -startmapper Inicia o editor de mapeamento do DOSBox-X.
 -gui Inicia a ferramenta de configuração gráfica.
--get "propriedade da seção" retorna o valor da propriedade.
--set (-setf p/ forçar) "seção propriedade=valor" define o valor da propriedade.
+-get "propriedade da seção" retorna o valor da propriedade (além do %%CONFIG%%).
+-set (force c/ -setf) "propriedade da seção=valor" define o valor da propriedade.
 
 .
 :PROGRAM_CONFIG_HLP_PROPHLP
-Propósito da propriedade "%s" (conteúdo na seção "%s"):
+Propósito da propriedade "%s" (contida na seção "%s"):
 %s
 
 Valores possíveis: %s
@@ -352,7 +353,7 @@ Esta propriedade não pode ser alterada durante a execução.
 Deseja reiniciar agora para aplicar a configuração [Y/N] ?
 .
 :PROGRAM_CONFIG_HLP_POSINT
-inteiro positivo
+número inteiro positivo
 .
 :PROGRAM_CONFIG_HLP_SECTHLP
 A seção %s contem as seguintes propriedades:
@@ -2234,7 +2235,7 @@ TRUENAME [/H] arquivo
 
 .
 :SHELL_CMD_DXCAPTURE_HELP
-Executa um programa com captura de vídeo ou áudio.
+Executa um programa a gravação de vídeo ou áudio.
 
 .
 :SHELL_CMD_DXCAPTURE_HELP_LONG
@@ -2938,10 +2939,10 @@ Aguardar o aplicativo, se possível
 Modo silencioso - sem mensagem de início
 .
 :MENU:CaptureMenu
-Captura
+Gravação
 .
 :MENU:CaptureFormatMenu
-Formato de captura
+Formato de gravação
 .
 :MENU:capture_fmt_avi_zmbv
 AVI + ZMBV
