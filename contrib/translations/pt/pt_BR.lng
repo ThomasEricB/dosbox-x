@@ -2235,7 +2235,7 @@ TRUENAME [/H] arquivo
 
 .
 :SHELL_CMD_DXCAPTURE_HELP
-Executa um programa a gravação de vídeo ou áudio.
+Executa em um programa a gravação de vídeo ou áudio.
 
 .
 :SHELL_CMD_DXCAPTURE_HELP_LONG
